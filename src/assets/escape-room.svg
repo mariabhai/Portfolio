@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#e5e3df"/>
+  <rect x="60" y="60" width="520" height="360" fill="#f8f7f4" stroke="#999"/>
+  <path d="M90 120H550M90 330H550" stroke="#aaa"/>
+  <text x="90" y="102" font-family="Arial, sans-serif" font-size="16" fill="#555">CONCEPT / 01</text>
+  <text x="90" y="245" font-family="Arial, sans-serif" font-size="34" fill="#111">ESCAPE ROOM</text>
+  <text x="90" y="375" font-family="Arial, sans-serif" font-size="16" fill="#555">React / JavaScript / CSS</text>
+</svg>
