@@ -6,7 +6,6 @@ Min personliga portfolio, skapad som en skoluppgift på Medieinstitutet. Sidan p
 
 - [Live – mstery.se](https://www.mstery.se)
 - [Live – Vercel](https://portfolio-test11-d185.vercel.app)
-- [GitHub-repo](https://github.com/mariabhai/Portfolio)
 - [Figma – mobil och desktop](https://www.figma.com/design/eSm3fNA8JJDPza2tc5RUVB/Portfolio)
 
 ## Teknik
