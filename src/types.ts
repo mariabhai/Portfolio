@@ -3,6 +3,7 @@ export type Project = {
   title: string
   description: string
   image: string
+  imageSmall: string
   tags: string[]
   isConcept: boolean
   repoUrl?: string

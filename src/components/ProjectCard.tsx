@@ -16,7 +16,17 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: shouldReduceMotion ? 0 : 0.7, ease: 'easeOut' }}
     >
-      <img className="project-image" src={project.image} alt={project.isConcept ? `${project.title} concept preview` : `Screenshot of ${project.title}`} />
+      <img
+        className="project-image"
+        src={project.image}
+        srcSet={`${project.imageSmall} 400w, ${project.image} 800w`}
+        sizes="(max-width: 700px) 100px, (max-width: 900px) calc((100vw - 84px) / 2), (max-width: 1200px) calc((100vw - 136px) / 4), 266px"
+        width="800"
+        height="600"
+        alt={project.isConcept ? `${project.title} concept preview` : `Screenshot of ${project.title}`}
+        loading="lazy"
+        decoding="async"
+      />
       <div className="project-content">
         <h3>{project.title}</h3>
         <p className="project-tags">{project.tags.join(' / ')}</p>

@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="/src/assets/profile-hero-800.webp"
+      imagesrcset="/src/assets/profile-hero-400.webp 400w, /src/assets/profile-hero-800.webp 800w"
+      imagesizes="(max-width: 700px) calc((100vw - 32px) * 0.7), (max-width: 1200px) calc((100vw - 64px) * 0.35), 398px"
+      fetchpriority="high"
+    />
     <title>portfolio</title>
   </head>
   <body>
