@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 const Projects = () => {
   const [selectedTag, setSelectedTag] = useState('All')
 
-  const tags = ['All', 'React', 'JavaScript', 'TypeScript', 'UX / UI', 'API', 'HTML', 'CSS', 'Figma']
+  const tags = ['All', 'React', 'JavaScript', 'TypeScript', 'UX / UI', 'API', 'HTML', 'CSS', 'Figma', 'Express', 'MongoDB']
 
   // Derive the list from the selected tag instead of storing extra state.
   const filteredProjects = projects.filter((project) => (
